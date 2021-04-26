@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+<body>
+    <!--poster muestra una imagen a modo de precentacion-->
+    <!--preload:
+        none el video no se descargas hasta que le den play
+        metadata el video solo se descargan los metadatos (dimencion, primer frame, duracion ,etc)
+        auto el video se descarga sin importar si se le dio play-->
+    <!--autoplay el video se reproduce solo-->
+    <!--loop el video se reproduce cuando termina-->
+    <!--muted el video se reproduce sin audio-->
+    <!--controls muestra los controles de reproduccion-->
+    <h1>MULTIMEDIA HTML</h1>
+    <hr>
+    <video src="video/miedo.mp4" width=600 controls autoplay loop poster="images/pistola.jpg"></video>
+    <hr>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KWtoltDf5Hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <hr>
+    <audio src=audio/hello.mp3 controls autoplay loop></audio>
+</html>
